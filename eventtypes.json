@@ -1,0 +1,137 @@
+{
+  "prefix": "https://calconnect.org/ns/eventtypes/",
+  "types": {
+    "activity": {
+      "description": "various activities that further describe an event",
+      "subtypes": [
+        "check-in",
+        "check-out",
+        "drop-off",
+        "pick-up",
+        "practice",
+        "rehearsal",
+        "training"
+      ]
+    },
+    "business": {
+      "description": "events that relate to business activities",
+      "subtypes": [
+        "conference",
+        "interview",
+        "meeting",
+        "opening-hours",
+        "party",
+        "presentation",
+        "summit"
+      ]
+    },
+    "culture": {
+      "description": "events that relate to the arts and entertainment",
+      "subtypes": [
+        "ballet",
+        "carnival",
+        "cinema",
+        "circus",
+        "concert",
+        "dance",
+        "exhibition",
+        "festival",
+        "library",
+        "museum",
+        "music-festival",
+        "performance",
+        "opera",
+        "reading",
+        "theatre",
+        "tv",
+        "zoo"
+      ]
+    },
+    "personal": {
+      "description": "events that relate to an individual",
+      "subtypes": [
+        "anniversary",
+        "birthday",
+        "body-care",
+        "breakfast",
+        "cleaning",
+        "day-of-death",
+        "dentist",
+        "dinner",
+        "education",
+        "excursion",
+        "exercise",
+        "family",
+        "financial",
+        "haircut",
+        "legal",
+        "leisure",
+        "lunch",
+        "medical",
+        "optician",
+        "party",
+        "repair",
+        "school",
+        "shopping",
+        "social",
+        "therapy",
+        "training",
+        "travel",
+        "vacation",
+        "work"
+      ]
+    },
+    "public": {
+      "description": "events that impact groups of people",
+      "subtypes": [
+        "demonstration",
+        "garbage-collection",
+        "holiday",
+        "national-holiday",
+        "political-rally",
+        "religious-holiday",
+        "school-holiday"
+      ]
+    },
+    "sports": {
+      "description": "events that relate to sports",
+      "subtypes": [
+        "american-football",
+        "athletics",
+        "baseball",
+        "basketball",
+        "cricket",
+        "cross-country",
+        "football",
+        "gymnastics",
+        "handball",
+        "hockey",
+        "horse-racing",
+        "horse-riding",
+        "ice-hockey",
+        "motorsport",
+        "netball",
+        "polo",
+        "rugby",
+        "table-tennis",
+        "tennis"
+      ]
+    },
+    "travel": {
+      "description": "events that relate to different aspects of travel",
+      "subtypes": [
+        "bicycle",
+        "boat",
+        "bus",
+        "car-rental",
+        "car",
+        "flight",
+        "hotel",
+        "motorcycle",
+        "taxi",
+        "train",
+        "walking"
+      ]
+    }
+  }
+}
