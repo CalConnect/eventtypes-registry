@@ -41,6 +41,7 @@
         "music-festival",
         "performance",
         "opera",
+        "radio",
         "reading",
         "theatre",
         "tv",
@@ -128,6 +129,7 @@
         "flight",
         "hotel",
         "motorcycle",
+        "sight-seeing",
         "taxi",
         "train",
         "walking"
