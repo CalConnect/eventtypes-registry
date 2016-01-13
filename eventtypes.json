@@ -3,137 +3,184 @@
   "types": {
     "activity": {
       "description": "various activities that further describe an event",
-      "subtypes": [
-        "check-in",
-        "check-out",
-        "drop-off",
-        "pick-up",
-        "practice",
-        "rehearsal",
-        "training"
-      ]
+      "types": {
+        "check-in" : {},
+        "check-out" : {},
+        "drop-off" : {},
+        "pick-up" : {},
+        "practice" : {},
+        "rehearsal" : {},
+        "training" : {}
+      }
     },
     "business": {
       "description": "events that relate to business activities",
-      "subtypes": [
-        "conference",
-        "interview",
-        "meeting",
-        "opening-hours",
-        "party",
-        "presentation",
-        "summit"
-      ]
+      "types": {
+        "conference" : {},
+        "interview" : {},
+        "meeting" : {},
+        "opening-hours" : {},
+        "party" : {},
+        "presentation" : {},
+        "summit" : {}
+      }
     },
     "culture": {
       "description": "events that relate to the arts and entertainment",
-      "subtypes": [
-        "ballet",
-        "carnival",
-        "cinema",
-        "circus",
-        "concert",
-        "dance",
-        "exhibition",
-        "festival",
-        "library",
-        "museum",
-        "music-festival",
-        "performance",
-        "opera",
-        "radio",
-        "reading",
-        "theatre",
-        "tv",
-        "zoo"
-      ]
+      "types": {
+        "ballet" : {},
+        "carnival" : {},
+        "cinema" : {},
+        "circus" : {},
+        "concert" : {},
+        "dance" : {},
+        "exhibition" : {},
+        "festival" : {},
+        "library" : {},
+        "museum" : {},
+        "music-festival" : {},
+        "performance" : {},
+        "opera" : {},
+        "radio" : {},
+        "reading" : {},
+        "theatre" : {},
+        "tv" : {},
+        "zoo" : {}
+      }
     },
     "personal": {
       "description": "events that relate to an individual",
-      "subtypes": [
-        "anniversary",
-        "birthday",
-        "body-care",
-        "breakfast",
-        "cleaning",
-        "day-of-death",
-        "dentist",
-        "dinner",
-        "education",
-        "excursion",
-        "exercise",
-        "family",
-        "financial",
-        "haircut",
-        "legal",
-        "leisure",
-        "lunch",
-        "medical",
-        "optician",
-        "party",
-        "repair",
-        "school",
-        "shopping",
-        "social",
-        "therapy",
-        "training",
-        "travel",
-        "vacation",
-        "work"
-      ]
+      "types": {
+        "anniversary" : {},
+        "birthday" : {},
+        "body-care" : {},
+        "breakfast" : {},
+        "cleaning" : {},
+        "day-of-death" : {},
+        "dentist" : {},
+        "dinner" : {},
+        "education" : {},
+        "excursion" : {},
+        "exercise" : {},
+        "family" : {},
+        "financial" : {},
+        "haircut" : {},
+        "legal" : {},
+        "leisure" : {},
+        "lunch" : {},
+        "medical" : {},
+        "optician" : {},
+        "party" : {},
+        "repair" : {},
+        "school" : {},
+        "shopping" : {},
+        "social" : {},
+        "therapy" : {},
+        "training" : {},
+        "travel" : {},
+        "vacation" : {},
+        "work" : {}
+      }
     },
     "public": {
       "description": "events that impact groups of people",
-      "subtypes": [
-        "demonstration",
-        "garbage-collection",
-        "holiday",
-        "national-holiday",
-        "political-rally",
-        "religious-holiday",
-        "school-holiday"
-      ]
+      "types": {
+        "demonstration" : {},
+        "garbage-collection" : {},
+        "holiday" : {},
+        "national-holiday" : {},
+        "political-rally" : {},
+        "religious-holiday" : {},
+        "school-holiday" : {}
+      }
     },
     "sports": {
       "description": "events that relate to sports",
-      "subtypes": [
-        "american-football",
-        "athletics",
-        "baseball",
-        "basketball",
-        "cricket",
-        "cross-country",
-        "football",
-        "gymnastics",
-        "handball",
-        "hockey",
-        "horse-racing",
-        "horse-riding",
-        "ice-hockey",
-        "motorsport",
-        "netball",
-        "polo",
-        "rugby",
-        "table-tennis",
-        "tennis"
-      ]
+      "links": ["http://www.dmoz.org/Sports/"],
+      "types": {
+        "american-football" : {
+        	"links": ["http://www.dmoz.org/Sports/Football/American/"]
+        },
+        "athletics" : {
+        	"links": ["http://www.dmoz.org/Sports/Track_and_Field/"]
+        },
+        "baseball" : {
+        	"links": ["http://www.dmoz.org/Sports/Baseball/"]
+        },
+        "basketball" : {
+        	"links": ["http://www.dmoz.org/Sports/Basketball/"]
+        },
+        "cricket" : {
+        	"links": ["http://www.dmoz.org/Sports/Cricket/"]
+        },
+        "cross-country" : {
+        	"links": ["http://www.dmoz.org/Sports/Running/Cross_Country/"]
+        },
+        "football" : {
+        	"links": ["http://www.dmoz.org/Sports/Football/"]
+        },
+        "gymnastics" : {
+        	"links": ["http://www.dmoz.org/Sports/Gymnastics/"]
+        },
+        "handball" : {
+        	"links": ["http://www.dmoz.org/Sports/Handball/"]
+        },
+        "hockey" : {
+        	"links": ["http://www.dmoz.org/Sports/Hockey/"]
+        },
+        "horse-racing" : {
+        	"links": ["http://www.dmoz.org/Sports/Equestrian/Racing/"]
+        },
+        "ice-hockey" : {
+        	"links": ["http://www.dmoz.org/Sports/Hockey/Ice_Hockey/"]
+        },
+        "motorsport" : {
+        	"links": ["http://www.dmoz.org/Sports/Motorsports/"]
+        },
+        "netball" : {
+        	"links": ["http://www.dmoz.org/Sports/Netball/"]
+        },
+        "polo" : {
+        	"links": ["http://www.dmoz.org/Sports/Equestrian/Polo/"]
+        },
+        "rugby-league" : {
+        	"links": ["http://www.dmoz.org/Sports/Football/Rugby_League/"]
+        },
+        "rugby-union" : {
+        	"links": ["http://www.dmoz.org/Sports/Football/Rugby_Union/"]
+        },
+        "table-tennis" : {
+        	"links": ["http://www.dmoz.org/Sports/Table_Tennis/"]
+        },
+        "tennis" : {
+        	"links": ["http://www.dmoz.org/Sports/Tennis/"]
+        }
+      }
     },
+    "transportation": {
+      "description": "different modes of transport used for an event",
+      "types": {
+        "airplane" : {},
+        "bicycle" : {},
+        "boat" : {},
+        "bus" : {},
+        "car" : {},
+        "motorcycle" : {},
+        "taxi" : {},
+        "train" : {},
+        "walking" : {}
+      }
+    }
     "travel": {
-      "description": "events that relate to different aspects of travel",
-      "subtypes": [
-        "bicycle",
-        "boat",
-        "bus",
-        "car-rental",
-        "car",
-        "flight",
-        "hotel",
-        "motorcycle",
-        "sight-seeing",
-        "taxi",
-        "train",
-        "walking"
-      ]
+      "description": "different aspects of travel (itinerary pieces)",
+      "types": {
+        "car-rental" : {},
+        "flight" : {},
+        "hotel" : {},
+        "lodging" : {},
+        "sight-seeing" : {},
+        "transportation" : {}
+      }
     }
   }
 }

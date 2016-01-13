@@ -36,12 +36,12 @@ MEMBER types "types" : Object (
 
 ; An event type
 MEMBER type "" : Object(
-	description, subtypes
+	?description, ?links, ?types
 )
 
 ; The description of a type
 MEMBER description "description" : STRING
 
-; Subtypes associated with a type
-MEMBER subtypes "subtypes" : ARRAY STRING
+; Links to external resources associated with a type
+MEMBER links "links" : ARRAY STRING
 ```
