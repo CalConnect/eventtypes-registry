@@ -1,0 +1,58 @@
+= Event types registry (`eventtypes`)
+
+== Introduction
+
+This folder contains information about the "eventtypes" registry. This registry
+defines values that can be used with the iCalendar `STRUCTURED-CATEGORY`
+property.
+
+The event types are defined in the `eventtypes.json` file (details below).
+
+== Event type structure
+
+The values are formed by taking the "prefix" and appending a "type" followed by
+an optional "/" and a "subtype". So for example, a football match might have:
+
+[source]
+----
+https://calconnect.org/ns/eventtypes/sports/football
+----
+
+Event type values can be mixed together to build different variations of events.
+
+So for example, a football practice might have:
+
+[source]
+----
+https://calconnect.org/ns/eventtypes/sports/football
+https://calconnect.org/ns/eventtypes/activity/practice
+----
+
+== JSON schema
+
+The JSON schema used in the `eventtypes.json` files is as follows:
+
+[source]
+----
+; root object
+OBJECT (prefix, types)
+
+; namespace prefix
+MEMBER prefix "prefix" : STRING
+
+; Types
+MEMBER types "types" : Object (
+    *type
+)
+
+; An event type
+MEMBER type "" : Object(
+    ?description, ?links, ?types
+)
+
+; The description of a type
+MEMBER description "description" : STRING
+
+; Links to external resources associated with a type
+MEMBER links "links" : ARRAY STRING
+----
